@@ -8,7 +8,7 @@ export const products = [
       },
       {
         id: 2,
-        img: require('./img/2.jpg'),
+        img: require('./img/1.png'),
         link: "https://clone-yout.web.app/",
       },
       {
