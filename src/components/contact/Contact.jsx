@@ -1,6 +1,6 @@
 import "./contact.css";
-import Githup from "../../img/github-512.webp";
-import Email from "../../img/email.png";
+import Githup from "../../img/github-512.jpg";
+import Email from "../../img/email.jpg";
 import Linkedin from "../../img/linkedin-vector-icon-4.jpg";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";

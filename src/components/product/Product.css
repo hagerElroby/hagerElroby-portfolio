@@ -1,5 +1,11 @@
-.p{
+.card{
+  display: flex;
+  flex-direction: column;
   width: 30%;
+  
+
+}
+.p{
   height: 40vh;
   margin: 20px 10px;
   border: 2px solid rgb(243, 242 , 242);
@@ -8,7 +14,7 @@
   -moz-border-radius: 10px 10px 0 0;
   -ms-border-radius: 10px 10px 0 0;
   -o-border-radius: 10px 10px 0 0;
-  overflow: hidden;
+  overflow: hidden; 
 }
 .p-browser{
   height: 25px;
@@ -44,9 +50,36 @@
   -ms-transform: translateY(-100%);
   -o-transform: translateY(-100%);
 }
-@media screen and (max-width: 480px) {
-  .p {
-    width: 40%;
-    height: 20vh;
+.btn{
+  display: flex;
+  justify-content: space-around;
+}
+.btn a{
+  text-decoration: none;
+}
+.btn a:hover button{
+  color: #4e9eff;
+  background-color: #fff;
+}
+.btn button{
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  font-weight: bold;
+  
+}
+
+
+@media screen and (max-width: 765px) {
+  .card {
+    width: 45%;
   }
+}
+@media screen and (max-width: 480px) {
+  .card {
+    width: 80%;
+  }
+ 
 }
