@@ -2,7 +2,7 @@ import "./Product.css";
 import githupimg from '../../img/github (1).svg';
 import webimg from '../../img/globe-solid (1).svg'
 
-const Product = ({img,link ,githup}) => {
+const Product = ({img,link ,githup ,tech}) => {
   return (
     <div className="card">
     <div className="p">
@@ -23,6 +23,10 @@ const Product = ({img,link ,githup}) => {
             <button>Githup</button>
         </a>
     </div>
+    <div>
+      <p className="tech">{tech}</p>
+    </div>
+  
     </div>
   );
 };
