@@ -22,7 +22,7 @@ const About = () => {
           <div className="a-award-texts">
             <h4 className="a-award-title">(2018- 2023) Faculty of engineering <br/> Electrical Systems and Computer Engineering department</h4>
             <p className="a-award-desc">
-            I desighen and develop services for customer of all sizes specalizing in creating stylish ,
+            I design  and develop services for customer of all sizes specalizing in creating stylish ,
             modern websites , web services and online store , design and code beautifully simple things, and I love what I do.
             </p>
           </div>
